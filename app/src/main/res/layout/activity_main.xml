@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ice_pbru.laihacote.jaruwan.piano.MainActivity"
-    android:background="@drawable/bg28">
+    android:background="@drawable/bg30">
 
     <LinearLayout
         android:orientation="vertical"
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="PIANO"
             android:id="@+id/textView"
-            android:textSize="40dp"
+            android:textSize="50dp"
             android:gravity="center"
             android:textColor="#151212"
             android:textStyle="bold"
@@ -33,46 +33,70 @@
             android:layout_height="match_parent">
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button"
-                android:singleLine="false" />
+                android:singleLine="false"
+                android:text="C"
+                android:gravity="bottom|center"
+                android:textSize="20dp" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button2"
-                android:singleLine="false" />
+                android:singleLine="false"
+                android:text="D"
+                android:textSize="20dp"
+                android:gravity="bottom|center" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:id="@+id/button3" />
+                android:id="@+id/button3"
+                android:text="E"
+                android:textSize="20dp"
+                android:gravity="bottom|center" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:id="@+id/button4" />
+                android:id="@+id/button4"
+                android:gravity="bottom|center"
+                android:text="F"
+                android:textSize="20dp" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:id="@+id/button5" />
+                android:id="@+id/button5"
+                android:text="G"
+                android:textSize="20dp"
+                android:gravity="bottom|center" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:id="@+id/button7" />
+                android:id="@+id/button7"
+                android:gravity="bottom|center"
+                android:text="A"
+                android:textSize="20dp" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:id="@+id/button6" />
+                android:id="@+id/button6"
+                android:text="B"
+                android:textSize="20dp"
+                android:gravity="bottom|center" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:id="@+id/button8" />
+                android:id="@+id/button8"
+                android:text="C"
+                android:textSize="20dp"
+                android:gravity="bottom|center" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
