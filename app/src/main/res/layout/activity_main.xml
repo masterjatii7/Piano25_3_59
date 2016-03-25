@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="PIANO"
             android:id="@+id/textView"
-            android:textSize="50dp"
+            android:textSize="51dp"
             android:gravity="center"
             android:textColor="#151212"
             android:textStyle="bold"
