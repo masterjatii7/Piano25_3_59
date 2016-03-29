@@ -77,18 +77,18 @@
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:id="@+id/button7"
-                android:gravity="bottom|center"
+                android:id="@+id/button6"
                 android:text="A"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:gravity="bottom|center" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:id="@+id/button6"
+                android:id="@+id/button7"
+                android:gravity="bottom|center"
                 android:text="B"
-                android:textSize="20dp"
-                android:gravity="bottom|center" />
+                android:textSize="20dp" />
 
             <Button
                 android:layout_width="113dp"
